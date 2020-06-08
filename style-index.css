@@ -1,0 +1,56 @@
+body {
+    background-image: url(https://www.casino.org/news/wp-content/uploads/2019/10/rick-rodriguez-gqrfl0qed1q-unsplash.jpg);
+    background-size: cover;
+  }
+.body-container {
+    background-color: #003831;
+    padding: 5%;
+    
+  }
+  .form-container {
+    padding: 2.5%;
+    border: 2px solid #EFB21E;
+  }
+
+  .form-group {
+      color: white;
+  }
+
+  #message-to-me {
+      height: 250px;
+      width: 100%;
+    ;
+  }
+
+  .footer {
+    padding: 25px;
+    font-size: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: yellow;
+    margin-left: 40%;
+  }
+
+  .footer h2 {   
+    font-size: 15px;
+    /* margin-left: 35%; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: #EFB21E;
+  }
+
+  img {
+    padding: 15px;
+    height: 35%;
+    width: 35%;
+  }
+  /* NB: I could have applied the above properties to this specific img with an id="", then style as '#img'...but decided against it because it is the only image on this page. */
+  .bio-body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #EFB21E;
+  }

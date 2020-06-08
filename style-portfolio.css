@@ -1,0 +1,44 @@
+body {
+    background-color: salmon;
+}
+
+.body-container {
+    background-color: #003831;
+    padding: 5%;
+    
+  }
+  .main-content-container {
+    padding: 2.5%;
+    border: 2px solid #EFB21E;
+  }
+
+  .footer {
+    padding: 30px;
+    font-size: 10px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: whitesmoke
+  }
+
+  .footer h2 {   
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  h1 {
+    font-family: fantasy;
+    font-size: 50px;
+    color: #EFB21E;
+  }
+
+  img {
+    padding: 15px;
+    height: 35%;
+    width: 35%;
+  }
+  /* NB: I could have applied the above properties to this specific img with an id="", then style as '#img'...but decided against it because it is the only image on this page. */
+  .bio-body {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #EFB21E;
+  }
