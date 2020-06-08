@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="background-color: slategray">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">Mike Shenk</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="My Darkest Secrets..." aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: black">Search</button>
+            <button class="btn btn-secondary" type="submit">Search</button>
           </form>
         </div>
     </nav>
@@ -59,8 +59,10 @@
     </div>
     <div class="form-text form-group-lg" id="Message">
         <label for="formGroupExampleInput2">Your message to me: </label>
-        <input type="text" id="message-to-me">
-      </div>
+        <textarea type="text" class="form-control" id="message-to-me" rows="10"></textarea>
+      </div class="submit-btn">
+      <br>
+        <button type="button" class="btn btn-danger btn-outline btn-sm float-center">Submit</button>
     </form>
 </div>
 
