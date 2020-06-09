@@ -2,6 +2,9 @@ body {
   background-image: url(https://seeklogo.com/images/U/university-of-california-berkeley-athletic-logo-815CB73082-seeklogo.com.png);
   background-color: grey;
 }
+p {
+  color: #041E42;
+}
 .body-container {
   background-color: #041E42;
   margin: 3% auto;
@@ -94,12 +97,27 @@ h5 {
 p.bio-body a {
   color:#EFB21E;
 }
+p.card-body {
+  color: black;
+}
 img {
   padding: 15px;
   height: 35%;
   width: 35%;
+  border-radius: 20px;
 }
 
+.col-md-4 {
+  text-align: center;
+  max-width: 100%;
+  height: auto;
+}
+.img-fluid {
+  border-radius: 20px;
+  align-items: center;
+  height: auto;
+  width: auto;
+}
 /* The following CSS attributes apply only to the "contact.html" page. */
 .form-container {
   background: linear-gradient(120deg, #041E42 35%, #EFB21E 100%);
