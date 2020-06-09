@@ -1,51 +1,122 @@
 body {
-    background-image: url(http://jolantaburke.com/wp-content/uploads/2017/09/contact-2-1.png);
-    background-size: cover;
-  }
+  background-color: grey;
+}
 
-  .form-container {
-    background: linear-gradient(45deg, blue 0%, white 100%);
-    padding: 2.5% ;
-    border: 2px solid white;
-  }
+.form-container {
+  background: linear-gradient(45deg, #041E42 35%, #EFB21E 100%);
+  padding: 2.5%;
+   margin: 3% auto;
+   border: 5px solid #EFB21E;
+   border-style: double;
+   border-radius: ;
+}
 
-  .form-text {
-    color: whitesmoke;
-  }
+.form-text {
+  color: white;
+}
+.navbar {
+  background-color: #041E42;
+  font-family: 'Anton', sans-serif;
+  border-bottom: 5px solid #EFB21E;
+}
 
-  #message-to-me {
-    height: 250px;
-    width: 100%;
-    bottom: -60px;
-  }
+.navbar-main {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 40px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-about-me {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-contact {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-linkedin {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.search-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .footer {
-    padding: 30px;
-    font-size: 10px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: blue;
-  }
+.btn-search {
+  color: #EFB21E;
+  background-color: #041E42;
+  border: 2px solid #EFB21E;
+}
+.btn-search:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+  transition: all 0.75;
+}
+.btn-submit {
+  background-color: #041E42;
+  color: #EFB21E;
+  border: 2px solid;
+}
+.btn-submit:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+  transition: all 0.75
+}
+#message-to-me {
+  height: 250px;
+  width: 100%;
+  bottom: -60px;
+}
+textarea {
+  resize: none;
+}
+ 
+.headline-font {
+  font-family: 'Anton', sans-serif;
+  color: #EFB21E;
+  text-decoration: underline;
+  justify-content: center;
+}
+.footer-header {
+  font-size: 17px;
 
-  .footer h2 {   
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+}
+.footerbar {
+  padding: 30px;
+  font-size: 12px;
+  clear: both;
+  color: #041E42;
+  background-color: #EFB21E;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  align-items: flex-end;
+  border-top: 10px solid #041E42;
+  border-top-style: double;
+}
 
-  h1 {
-    font-family: fantasy;
-    font-size: 50px;
-    color: white;
-  }
-
-  img {
-    padding: 15px;
-    height: 35%;
-    width: 35%;
-  }
-  /* NB: I could have applied the above properties to this specific img with an id="", then style as '#img'...but decided against it because it is the only image on this page. */
-  .bio-body {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #EFB21E;
-  }
+img {
+  padding: 15px;
+  height: 35%;
+  width: 35%;
+}
+/* NB: I could have applied the above properties to this specific img with an id="", then style as '#img'...but decided against it because it is the only image on this page. */
+.bio-body {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #EFB21E;
+}

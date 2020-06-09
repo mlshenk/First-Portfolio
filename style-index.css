@@ -1,56 +1,129 @@
 body {
-    background-image: url(https://www.casino.org/news/wp-content/uploads/2019/10/rick-rodriguez-gqrfl0qed1q-unsplash.jpg);
-    background-size: cover;
-  }
+  background-image: url(https://seeklogo.com/images/U/university-of-california-berkeley-athletic-logo-815CB73082-seeklogo.com.png);
+  background-color: grey;
+}
 .body-container {
-    background-color: #003831;
-    padding: 5%;
-    
-  }
-  .form-container {
-    padding: 2.5%;
-    border: 2px solid #EFB21E;
-  }
+  background-color: #041E42;
+  margin: 3% auto;
+  padding: 2.5%;
+  border: 5px solid #EFB21E;
+  border-style: double;
+  border-radius: 15px;
+}
+.navbar {
+  background-color: #041E42;
+  font-family: 'Anton', sans-serif;
+  border-bottom: 5px solid #EFB21E;
+}
+.navbar-main {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 40px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-about-me {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-contact {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.nav-linkedin {
+  background-color:#EFB21E;
+  color:#041E42;
+  font-size: 25px;
+  padding: 0 10px 0 10px;
+  border: 5px 0 5px 0 solid #041E42;
+  border-style: double;
+}
+.search-text {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-search {
+  color: #EFB21E;
+  background-color: #041E42;
+  border: 2px solid #EFB21E;
+}
+.btn-search:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+  transition: all 0.75
+}
+.header-font {
+  font-family: 'Anton', sans-serif;
+  font-size: 55px;
+  color: #EFB21E;
+  text-decoration:  underline;
+}
+.bio-body {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  color: #FFC72C;
+}
+.footer-header {
+  font-size: 17px;
+}
+.footerbar {
+  padding: 30px;
+  font-size: 12px;
+  clear: both;
+  color: #041E42;
+  background-color: #EFB21E;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  align-items: flex-end;
+  border-top: 10px solid #041E42;
+  border-top-style: double;
+}
 
-  .form-group {
-      color: white;
-  }
+h5 {
+  font-style: italic;
+  text-decoration: underline;
+}
+p.bio-body a {
+  color:#EFB21E;
+}
+img {
+  padding: 15px;
+  height: 35%;
+  width: 35%;
+}
 
-  #message-to-me {
-      height: 250px;
-      width: 100%;
-    ;
-  }
-
-  .footer {
-    padding: 25px;
-    font-size: 10px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-    color: yellow;
-    margin-left: 40%;
-  }
-
-  .footer h2 {   
-    font-size: 15px;
-    /* margin-left: 35%; */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
-
-  h1 {
-    font-family: fantasy;
-    font-size: 50px;
-    color: #EFB21E;
-  }
-
-  img {
-    padding: 15px;
-    height: 35%;
-    width: 35%;
-  }
-  /* NB: I could have applied the above properties to this specific img with an id="", then style as '#img'...but decided against it because it is the only image on this page. */
-  .bio-body {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-    color: #EFB21E;
-  }
+/* The following CSS attributes apply only to the "contact.html" page. */
+.form-container {
+  background: linear-gradient(120deg, #041E42 35%, #EFB21E 100%);
+  padding: 2.5%;
+   margin: 3% auto;
+   border: 5px solid #EFB21E;
+   border-style: double;
+   border-radius: 15px;
+}
+.form-text {
+  color: white;
+}
+.btn-submit {
+  background-color: #041E42;
+  color: #EFB21E;
+  border: 2px solid;
+}
+.btn-submit:hover {
+  background-color: #EFB21E;;
+  border: 1px solid white;
+  opacity: 1;
+  transition: all 0.75
+}
+textarea {
+  resize: none;
+}
+ 
