@@ -78,7 +78,6 @@ p {
   border-top: 10px solid #041E42;
   border-top-style: double;
 }
-
 h5 {
   font-style: italic;
   text-decoration: underline;
@@ -92,7 +91,6 @@ img {
   width: 35%;
   border-radius: 20px;
 }
-
 .col-md-4 {
   text-align: center;
   max-width: 100%;
