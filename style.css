@@ -99,8 +99,8 @@ img {
 .img-fluid {
   border-radius: 20px;
   align-items: center;
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 100%;
 }
 /* The following CSS attributes apply only to the "contact.html" page. */
 .form-container {
